@@ -278,7 +278,7 @@ body {
   color: rgba(84, 119, 146, 0.5215686275);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 740px) {
   .header {
     display: block;
   }
@@ -349,8 +349,18 @@ body {
     margin-top: 15px;
     height: 450px;
   }
+  .testimonial .card .card-img-top {
+    border-radius: 100%;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 15px;
+    height: 160px;
+  }
   .testimonial .card .card-name {
     font-size: 1.5rem;
+  }
+  .testimonial .card .card-title {
+    font-size: 1rem;
   }
   .testimonial .card .card-text {
     font-size: 1rem;
