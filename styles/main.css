@@ -1,0 +1,358 @@
+body {
+  background-color: #fefefe;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar-scrolled {
+  background-color: rgba(84, 119, 146, 0.4705882353) !important; /* contoh: hitam transparan */
+  box-shadow: 4px -4px 4px -4px solid rgba(84, 119, 146, 0.6392156863);
+  margin-bottom: 100%;
+}
+.navbar-scrolled .navbar-brand {
+  color: #fff !important;
+}
+.navbar-scrolled .nav-link {
+  color: #fefefe !important;
+}
+.navbar-scrolled .nav-link:hover {
+  color: #547792 !important;
+}
+
+.navbar {
+  background-color: #fff;
+}
+.navbar .navbar-toggler {
+  color: #547792;
+}
+.navbar .navbar-brand {
+  color: #547792;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.navbar .nav-item {
+  margin-left: 8px;
+}
+.navbar .nav-link {
+  color: #547792;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.navbar .nav-link:hover {
+  color: #547792;
+}
+
+.header {
+  text-align: center;
+  margin-top: 20%;
+  display: block;
+}
+.header .text-content {
+  margin-top: 8%;
+  margin-right: 15px;
+  color: #547792;
+}
+.header .text-content h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.header .text-content p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  justify-content: justify;
+  color: rgba(84, 119, 146, 0.5215686275);
+}
+.header .text-content .btn-group {
+  margin-top: 30px;
+  margin: 5px;
+  display: flex;
+}
+.header .text-content .btn-group .btn-get-started {
+  background-color: #547792;
+  color: #fff;
+  margin: 5px;
+  border-radius: 35px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  cursor: pointer;
+}
+.header .text-content .btn-group .btn-get-started:hover {
+  background-color: #fff;
+  color: #547792;
+  margin: 5px;
+  border-radius: 35px;
+  font-weight: 700;
+}
+.header .text-content .btn-group .btn-services {
+  background-color: #fff;
+  color: #547792;
+  margin: 5px;
+  border-radius: 35px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  cursor: pointer;
+}
+.header .text-content .btn-group .btn-services:hover {
+  background-color: #547792;
+  color: #fff;
+  margin: 5px;
+  border-radius: 35px;
+  font-weight: 700;
+}
+.header .img-bg {
+  border-radius: 25px 0px 25px 0px;
+  height: 400px;
+  margin-left: 15px;
+}
+.header .img-bg img {
+  width: 100%;
+  margin: auto;
+}
+
+.about {
+  margin-top: 15%;
+}
+.about h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  color: #547792;
+}
+.about p {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: justify;
+  color: rgba(84, 119, 146, 0.5215686275);
+}
+.about img {
+  width: 100%;
+  margin: auto;
+}
+
+.layanan {
+  margin-top: 15%;
+}
+.layanan .text-content {
+  margin-bottom: 5%;
+  color: #547792;
+}
+.layanan .text-content h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.layanan .text-content p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  justify-content: justify;
+  color: rgba(84, 119, 146, 0.5215686275);
+}
+.layanan .card {
+  border-radius: 25px;
+  border: 2px solid none;
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.layanan .card:hover {
+  background-color: #547792;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.layanan .card .card-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+.layanan .card .card-text:hover {
+  color: #fff;
+  font-weight: 500;
+}
+
+.gallery {
+  margin-top: 15%;
+}
+.gallery h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  color: #547792;
+}
+.gallery p {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: justify;
+  color: rgba(84, 119, 146, 0.5215686275);
+  margin-bottom: 25px;
+}
+.gallery .card {
+  margin: 5px;
+  width: 100%;
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  height: 250px;
+  border-radius: 25px;
+  border: 3px solid none;
+}
+.gallery .card .card-img-top {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  border-radius: 25px;
+}
+.gallery .card:hover {
+  border: 3px solid #547792;
+}
+
+.testimonial {
+  margin-top: 15%;
+}
+.testimonial h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  color: #547792;
+}
+.testimonial p {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: justify;
+  color: rgba(84, 119, 146, 0.5215686275);
+  margin-bottom: 25px;
+}
+.testimonial .card {
+  border-radius: 15px;
+  height: 500px;
+  order: 1px solid #547792;
+}
+.testimonial .card:hover {
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  cursor: pointer;
+}
+.testimonial .card .owl-carousel {
+  width: 100%;
+}
+.testimonial .card .card-img-top {
+  border-radius: 100%;
+  max-width: 50%;
+  margin: auto;
+  margin-top: 15px;
+  height: 200px;
+}
+.testimonial .card .card-name {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #547792;
+  text-align: center;
+}
+.testimonial .card .card-title {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #547792;
+  text-align: center;
+}
+.testimonial .card .card-text {
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: justify;
+  color: rgba(84, 119, 146, 0.5215686275);
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    display: block;
+  }
+  .header .text-content {
+    text-align: center;
+    justify-content: center;
+  }
+  .header .text-content h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+  .header .text-content p {
+    font-size: 1rem;
+  }
+  .header .btn-group {
+    display: block;
+    justify-content: center;
+  }
+  .header .btn-group .btn-get-started {
+    font-size: 0.8rem;
+    padding: 15px;
+  }
+  .header .btn-group .btn-services {
+    font-size: 0.8rem;
+  }
+  .header .img-bg {
+    display: none;
+  }
+  .about h1 {
+    font-size: 2rem;
+  }
+  .about p {
+    font-size: 1rem;
+  }
+  .layanan .text-content h1 {
+    font-size: 2rem;
+  }
+  .layanan .text-content p {
+    font-size: 1rem;
+  }
+  .layanan .card {
+    margin: auto;
+    display: grid;
+    margin-top: 15px;
+  }
+  .layanan .card .card-text {
+    font-size: 1.2rem;
+  }
+  .gallery h1 {
+    font-size: 2rem;
+  }
+  .gallery p {
+    font-size: 1rem;
+  }
+  .gallery* hover {
+    transition: all 0.3s ease;
+  }
+  .testimonial h1 {
+    font-size: 2rem;
+  }
+  .testimonial p {
+    font-size: 1rem;
+  }
+  .testimonial .card {
+    margin: auto;
+    max-width: 20rem;
+    display: flex;
+    margin-top: 15px;
+    height: 450px;
+  }
+  .testimonial .card .card-name {
+    font-size: 1.5rem;
+  }
+  .testimonial .card .card-text {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=main.css.map */

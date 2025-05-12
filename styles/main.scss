@@ -1,0 +1,448 @@
+body{
+    background-color: #fefefe;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#navbar {
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-scrolled {
+    background-color: #54779278 !important; /* contoh: hitam transparan */
+    box-shadow: 4px  -4px  4px  -4px solid #547792a3;
+    margin-bottom: 100%;
+    .navbar-brand {
+        color: #fff !important;
+    }
+
+   .nav-link{
+    color: #fefefe !important;
+
+    &:hover {
+        color: #547792 !important;
+    }
+   }
+  }
+
+
+.navbar   {
+    background-color: #fff;
+    .navbar-toggler{
+        color: #547792;
+    }
+    .navbar-brand {
+        color: #547792;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+
+
+    .nav-item {
+        margin-left: 8px;
+    }
+
+    .nav-link {
+        color: #547792;
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-left: 8px;
+        cursor: pointer;
+
+        &:hover
+        {
+            color: #547792;
+            
+        }
+        }
+    }
+
+    
+
+
+.header{
+   text-align: center;
+  margin-top: 20%;
+   display:block   ;
+
+    .text-content {
+        margin-top: 8%;
+        margin-right: 15px;
+        color: #547792;
+
+        h1 {
+            font-size:3.5rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            text-transform: capitalize;
+        }
+
+        p {
+            font-size: 1.1rem;
+            font-weight: 500;
+            justify-content: justify;
+        color: #54779285;
+
+        }
+
+        .btn-group{
+            margin-top: 30px;
+            margin: 5px;
+            display: flex;
+
+            .btn-get-started {
+                background-color: #547792;
+                color: #fff;
+                margin: 5px;
+                border-radius: 35px;
+                box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+                font-weight: 700; 
+                cursor: pointer;
+
+            &:hover {
+                background-color: #fff;
+                color: #547792;
+                margin: 5px;
+                border-radius: 35px; 
+                font-weight: 700; 
+            }  
+            }
+
+            .btn-services {
+                background-color: #fff;
+                color: #547792;
+                margin: 5px;
+                border-radius: 35px;
+                box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+                font-weight: 700; 
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #547792;
+                    color: #fff;
+                    margin: 5px;
+                    border-radius: 35px; 
+                    font-weight: 700; 
+                } 
+            }
+        }
+    }
+
+    .img-bg {
+        border-radius: 25px 0px 25px 0px; 
+        height: 400px;
+        margin-left: 15px;
+        img {
+            width: 100%;
+            margin: auto;
+        }
+    }
+}
+
+.about {
+    margin-top: 15%;
+
+    h1 {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+        color: #547792;
+    }
+
+    p{
+        text-align: center;
+        margin-top: 25px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: justify;
+        color: #54779285;
+    }
+
+
+    img {
+        width: 100%;
+        margin: auto;
+    }
+    
+}
+
+.layanan {
+    margin-top: 15%;
+
+    .text-content {
+        margin-bottom: 5%;
+        color:#547792;
+
+        h1 {
+            font-size:3rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            text-transform: capitalize;
+        }
+        p {
+            font-size: 1.1rem;
+            font-weight: 500;
+            justify-content: justify;
+            color: #54779285;
+        }
+    }
+
+    .card {
+        border-radius: 25px;
+        border: 2px solid none;
+        box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+
+        &:hover {
+            background-color: #547792;
+            color: #fff;
+            border: 2px solid #fff;
+
+        }
+
+
+        .card-text {
+            font-size: 1.5rem;
+            font-weight: 500;
+            text-align: center;
+
+            &:hover{
+                color: #fff;
+                font-weight: 500;
+            }
+        }
+
+
+    }
+
+
+}
+
+.gallery {
+    margin-top: 15%;
+
+    h1{
+        font-size: 3rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+        color: #547792;
+    }
+
+    p{
+        text-align: center;
+        margin-top: 15px;
+        font-size: 1.1rem;
+        font-weight: 500;
+        text-align: justify;
+        color: #54779285;
+        margin-bottom: 25px;
+    }
+
+    .card {
+        margin: 5px;
+       width: 100%;
+        box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+        height: 250px;
+        border-radius: 25px;
+        border: 3px solid none;
+
+        .card-img-top {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        border-radius: 25px;
+        
+        }
+
+        &:hover {
+            border: 3px solid #547792;
+        }
+    }
+
+}
+
+.testimonial {
+    margin-top: 15%;
+
+
+    h1{
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+        color: #547792;
+    }
+
+    p{
+        text-align: center;
+        margin-top: 15px;
+        font-size: 1.1rem;
+        font-weight: 500;
+        text-align: justify;
+        color: #54779285;
+        margin-bottom: 25px;
+    }
+
+    .card {      
+      border-radius: 15px;
+       height: 500px;
+       order: 1px solid #547792;
+
+       &:hover {
+        box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #fff;
+        cursor: pointer;
+       }
+
+
+       .owl-carousel {
+        width: 100%;
+       
+       }
+      
+        .card-img-top {
+            border-radius: 100%;
+            max-width: 50%;
+            margin: auto;
+            margin-top: 15px;
+            height: 200px;
+        }
+
+        .card-name {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #547792;
+            text-align: center;
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #547792;
+            text-align: center;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            font-weight: 500;
+            text-align: justify;
+            color: #54779285;
+
+
+        }
+
+        
+    
+    }
+    
+}
+
+
+@media screen and (max-width: 400px) {
+    
+
+    .header {
+        display: block;
+        .text-content {
+            text-align: center;
+            justify-content: center;
+            h1 {
+                font-size: 2rem;
+                width: 100%;
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+        .btn-group {
+            display: block;
+            justify-content:center ;
+            .btn-get-started {
+                font-size: 0.8rem;
+                padding: 15px;
+            }
+            .btn-services {
+                font-size: 0.8rem;
+            }
+        }
+        .img-bg{
+           display: none;
+        }
+    }
+
+    .about {
+        h1 {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .layanan {
+        .text-content {
+            h1 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+        .card {
+            margin: auto;
+            display: grid;
+            margin-top: 15px;
+           
+            .card-text {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .gallery {
+        h1 {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+        
+       &*hover {
+        transition: all 0.3s ease;
+        // border: 3px solid #547792;
+       }
+    
+    }
+
+    .testimonial {
+        h1 {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+
+        .card {
+            margin: auto;
+            max-width: 20rem;
+            display: flex;
+            margin-top: 15px;
+            height: 450px;
+
+            .card-name {
+                font-size: 1.5rem;
+            }
+            .card-text {
+                font-size: 1rem;
+            }
+        }
+    }
+    
+}
+
