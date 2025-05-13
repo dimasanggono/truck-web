@@ -30,7 +30,12 @@ body{
 .navbar   {
     background-color: #fff;
     .navbar-toggler{
+       border-color: #547792;
+
+       &:hover {
         color: #547792;
+       }
+
     }
     .navbar-brand {
         color: #547792;
@@ -192,6 +197,7 @@ body{
     }
 
     .card {
+        width: 100%;
         border-radius: 25px;
         border: 2px solid none;
         box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -225,6 +231,7 @@ body{
 .gallery {
     margin-top: 15%;
 
+   
     h1{
         font-size: 3rem;
         font-weight: 600;
@@ -244,13 +251,15 @@ body{
     }
 
     .card {
-        margin: 5px;
-       width: 100%;
+        display: flex;
+        margin: auto;
+         width: 100%;
         box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
         cursor: pointer;
         height: 250px;
         border-radius: 25px;
         border: 3px solid none;
+        margin-top: 10px;
 
         .card-img-top {
         width: 100%;
@@ -293,6 +302,7 @@ body{
       border-radius: 15px;
        height: 500px;
        order: 1px solid #547792;
+       border: 2px solid  #547792;
 
        &:hover {
         box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -344,6 +354,40 @@ body{
 }
 
 
+.contact {
+margin-top: 5%;
+
+h1{
+    font-size:2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: #547792;
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: justify;
+    color: #54779285;
+    margin-bottom: 25px;
+}
+
+.text-group {
+    margin-bottom: 8%;
+}
+}
+
+
+footer {
+    background-color: #547792;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-top: 5%;
+}
 @media screen and (max-width: 740px) {
     
 
@@ -381,7 +425,7 @@ body{
             font-size: 2rem;
         }
         p {
-            font-size: 1rem;
+            font-size: 0.8rem;
         }
     }
 
@@ -412,6 +456,10 @@ body{
         p {
             font-size: 1rem;
         }
+
+        .card {
+            width: 80%;
+        }
         
        &*hover {
         transition: all 0.3s ease;
@@ -421,6 +469,7 @@ body{
     }
 
     .testimonial {
+        margin-bottom: 15%;
         h1 {
             font-size: 2rem;
         }
@@ -434,6 +483,7 @@ body{
             display: flex;
             margin-top: 15px;
             height: 450px;
+           
 
             .card-img-top {
                 border-radius: 100%;
@@ -454,6 +504,39 @@ body{
                 font-size: 1rem;
             }
         }
+    }
+
+    .contact {
+        h1 {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+
+        .text-group {
+            margin-bottom: 8%;
+            h4 {
+                font-size: 1.2rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+        }
+    }
+
+    footer {
+        background-color: #547792;
+        color: #fff;
+        padding: 15px;
+        text-align: center;
+        font-size:0.8rem;
+        margin-top: 5%;
     }
     
 }
