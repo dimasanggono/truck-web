@@ -30,7 +30,13 @@ body{
 .navbar   {
     background-color: #fff;
     .navbar-toggler{
-       border-color: #547792;
+       border: 2px solid #547792;
+       border-radius: 10px;
+
+       i {
+        font-size: 2rem;
+        color:#547792;
+       }
 
        &:hover {
         color: #547792;
