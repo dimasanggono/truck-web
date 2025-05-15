@@ -234,7 +234,7 @@ body {
   margin-top: 15%;
 }
 .testimonial h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600;
   margin-bottom: 15px;
   text-transform: capitalize;
@@ -265,10 +265,10 @@ body {
 }
 .testimonial .card .card-img-top {
   border-radius: 100%;
-  max-width: 50%;
+  max-width: 45%;
   margin: auto;
   margin-top: 15px;
-  height: 200px;
+  height: 190px;
 }
 .testimonial .card .card-name {
   font-size: 2rem;
@@ -293,7 +293,7 @@ body {
   margin-top: 5%;
 }
 .contact h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600;
   margin-bottom: 15px;
   text-transform: capitalize;
@@ -305,7 +305,7 @@ body {
   margin-top: 15px;
   font-size: 1.1rem;
   font-weight: 500;
-  text-align: justify;
+  text-align: center;
   color: rgba(84, 119, 146, 0.5215686275);
   margin-bottom: 25px;
 }
